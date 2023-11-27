@@ -1,0 +1,24 @@
+<head>
+<body>
+{% if total is not None%}
+    <h1>Your total is {{ total }}<h1>
+{% else %}
+    <h1> Your must order before you see your total<h1>
+{% endif %}
+<form>
+    <label>
+        <p>burbers<p>
+        <input type='number' name='burbers' required>
+    <label>
+    <label>
+        <p>fries<p>
+        <input type='number' name='fries' required>
+    <label>
+    <label>
+        <p>drinks<p>
+        <input type='number' name='drinks' required>
+    <label>
+    <button>order<button>
+<form>
+<body>
+<head>
